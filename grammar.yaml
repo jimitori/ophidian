@@ -1,0 +1,81 @@
+# ophidian grammar
+
+version: 0.3
+
+tense: false
+
+aspect:
+  imperfective:
+    - type: 1
+      affix: "-ss-"
+      stem: basic
+      example: şagassa
+    - type: 2
+      affix: "-xx-"
+      stem: basic
+      example: şagaxxa
+  perfective:
+    - type: 1
+      affix: "-l"
+      stem: basic
+      example: şagassal
+    - type: 2
+      affix: "-l"
+      stem: geminated # Geminated stem is a form of the stem in verbs type 2, when the first C and the last V are doubled, while the -xx- affix is dropped
+      example: şşagaal
+
+
+mood:
+  indicative:
+    - type: [1, 2] # Applies to both verb types
+      affix: null
+      stem: basic
+      example: şagassa
+  imperative:
+    - type: [1, 2] # Applies to both verb types
+      affix: "-j"
+      stem: basic
+      example: şagassaj
+  jussive:
+    - type: 1
+      affix: "hee-"
+      stem: basic
+      example: heeşagassa
+    - type: 2
+      affix: "hee-"
+      stem: geminated
+      example: heeşşagaa
+
+voice:
+  active:
+    - type: [1, 2] # Applies to both verb types
+      affix: null
+      stem: basic
+      example: şagassa
+  middle-reflective:
+    - type: [1, 2] # Applies to both verb types
+      affix: "-ce"
+      stem: basic
+      example: şagassalace
+  causative:
+    - type: [1, 2] # Applies to both verb types
+      affix: "-śega"
+      stem: basic
+      example: şagassalaśega
+
+other-forms:
+  negative:
+    - type: [1, 2] # Applies to both verb types
+      affix: "ssaa-"
+      stem: basic
+      example: ssaaşagassa
+  infinitive:
+    - type: [1, 2] # Applies to both verb types
+      affix: "śa-"
+      stem: basic
+      example: śaşagassa
+  inceptive:
+    - type: [1, 2] # Applies to both verb types
+      affix: "taa-"
+      stem: basic
+      example: taaşagassa

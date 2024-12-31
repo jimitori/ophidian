@@ -32,4 +32,6 @@ transliteration:
     description: "Alternative Cyrillic transliteration"
     alphabet: ["ф", "с", "сј", "шј", "ш", "шт", "ј", "х", "г", "к", """, "л", "љ", "и", "е", "а", "'"]
 
+has-geminates: true
+has-long-vowels: true
 
