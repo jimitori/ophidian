@@ -1,0 +1,158 @@
+# ophidian lexicon
+
+version: 0.3
+
+verbs:
+  - word: "şagassa" # verbs are listed in their imperfective impersonate form
+    meaning: to open
+    type: 1
+  - word: "şagaxxa"
+    meaning: to be open
+    type: 2
+  - word: "hissa"
+    meaning: to hiss
+    type: 1
+  - word: "šecesse"
+    meaning: to fly
+    type: 1
+  - word: "seșesse"
+    meaning: to eat
+    type: 1
+  - word: "seșexxe"
+    meaning: to digest
+    type: 2
+  - word: "gaśissi" # prefixes can be added to indicate the direction of the movement
+    meaning: to move
+    type: 1
+  - word: "gaśixxi"
+    meaning: to wait, to be static
+    type: 2
+  - word: "seşegaśixxi"
+    meaning: to have eaten and crawl in a safe place to digest
+    type: 2
+  - word: "xesešassa"
+    meaning: to find shelter
+    type: 1
+  - word: "šixesaśesse"
+    meaning: to shed skin
+    type: 1
+  - word: "saśesse"
+    meaning: to get rid of sth
+    type: 1
+  - word: "ceșassa"
+    meaning: to slither
+    type: 1
+  - word: "jagassi"
+    meaning: to attack
+    type: 1
+  - word: "šexxe"
+    meaning: to be able to
+    type: 2
+  - word: "heeje"
+    meaning: to be
+    type: irregular
+    # imperfect: heeje; perfect:jjee; imperative: heej; jussive: hee; inceptive: tahee
+  - word: "hašassa"
+    meaning: to listen
+    type: 1
+  - word: "hašaxxa"
+    meaning: to hear
+    type: 2
+  - word: "satassa"
+    meaning: to call
+    type: 1
+  - word: "sataxxa"
+    meaning: to be called
+    type: 2
+    # example: šisataxxa %name% — my name is %name%; gesataxxa cci'i — what is your name?
+  - word: "qeșesse"
+    meaning: to want
+    type: 1
+    # requires infinitive: qeșesse śaşagassa — I want to open
+  
+
+nouns:
+  - word: "secişi"
+    meaning: a serpent
+    class: 1
+  - word: "tešece"
+    meaning: a bird, small flying animal
+    class: 3 
+  - word: "gašece"
+    meaning: a bird of prey
+    class: 5
+  - word: "tašša"
+    meaning: a door
+    class: 7
+  - word: "ļicejeśe"
+    meaning: a bird's nest
+    class: 8
+  - word: "šasiše"
+    meaning: a warm rock
+    class: 10
+  - word: "ļišixe"
+    meaning: a skin
+    class: 9
+  - word: "siše"
+    meaning: a rock
+    class: 7
+  - word: "ļixeseša"
+    meaning: a shelter
+    class: 9
+  - word: "tesessa"
+    meaning: a window
+    class: 3
+  - word: "ļicexese"
+    meaning: a snake's nest
+    class: 9
+  - word: "hehisa"
+    meaning: wind
+    class: 7 # no plural
+  - word: "sata"
+    meaning: a name
+    class: 7
+  - word: "seșagaśi"
+    meaning: success
+    class: 1
+  - word: "teja"
+    meaning: eggs as food
+    class: 4
+  - word: "seja"
+    meaning: snake eggs
+    class: 2
+  
+
+adjectives:
+  - word: "-seśe"
+    meaning: big
+  - word: "-šiisa"
+    meaning: small
+
+adverbs:
+  - word: "śegelaga"
+    meaning: soft, slow, careful
+
+pronouns:
+  - word: "ši"
+    meaning: I, here, this
+  - word: "ge"
+    meaning: you, there (near you), that (near you)
+  - word: "șe"
+    meaning: he, she, it, there, that (far from both of us)
+  - word: "haši"
+    meaning: we, here, these
+  - word: "hage"
+    meaning: you, there (near you), those (near you)
+  - word: "hașe"
+    meaning: they, there, those (far from both of us)
+  - word: "cci'i"
+    meaning: what, who, which
+# pronouns can also be used as prefixes for verbs to indicate the subject and the object of the action
+
+prepositions:
+  - word: "xaa"
+    meaning: in, along, on, at, by etc. # cf. Tok Pisin "long"
+
+conjunctions:
+  - word: "sa"
+    meaning: and, with

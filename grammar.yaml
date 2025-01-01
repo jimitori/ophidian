@@ -2,6 +2,9 @@
 
 version: 0.3
 
+# verb grammar
+
+verbs:
 tense: false
 
 aspect:
@@ -79,3 +82,39 @@ other-forms:
       affix: "taa-"
       stem: basic
       example: taaşagassa
+
+
+# noun grammar
+
+nouns:
+classes:
+  - class: 1
+    prefix: "se-"
+    semantics: "serpents, long objects"
+  - class: 2
+    prefix: "ce'e"
+    semantics: "plural for class 1"
+  - class: 3
+    prefix: "te-"
+    semantics: "small animals, food"
+  - class: 4
+    prefix: "teje-"
+    semantics: "plural for class 3"
+  - class: 5
+    prefix: "ga-"
+    semantics: "predators, big animals, big objects"
+  - class: 6
+    prefix: "qa'a-"
+    semantics: "plural for class 5"
+  - class: 7
+    prefix: "zero"
+    semantics: "inanimate objects, abstract concepts, other"
+  - class: 8
+    prefix: "ha-"
+    semantics: "plural for class 7, 8, 9"
+  - class: 9
+    prefix: "ļi-"
+    semantics: "shelter, body parts, plants, small objects"
+  - class: 10
+    prefix: "ša-"
+    semantics: "warm objects, fire, light"
