@@ -51,7 +51,7 @@ verbs:
   - word: "heeje"
     meaning: to be
     type: irregular
-    # imperfect: heeje; perfect:jjee; imperative: heej; jussive: hee; inceptive: tahee
+    # imperfect: heeje; perfect:jjee; imperative: heej; jussive: hee; inceptive: tahee (to become)
   - word: "hašassa"
     meaning: to listen
     type: 1
@@ -69,8 +69,10 @@ verbs:
     meaning: to want
     type: 1
     # requires infinitive: qeșesse śaşagassa — I want to open
+  - word: "jahassa"
+    meaning: to hurt
+    type: 1
   
-
 nouns:
   - word: "secişi"
     meaning: a serpent
@@ -121,7 +123,6 @@ nouns:
     meaning: snake eggs
     class: 2
   
-
 adjectives:
   - word: "-seśe"
     meaning: big
@@ -156,3 +157,12 @@ prepositions:
 conjunctions:
   - word: "sa"
     meaning: and, with
+
+numerals:
+  - word: "-xeta"
+    meaning: one
+  - word: "-ttaa"
+    meaning: two
+  - word: "-lata"
+    meaning: three
+    # numerals works as adjectives, e.g. "tešece xeta" — one bird, "teješece ttaa" — two birds
