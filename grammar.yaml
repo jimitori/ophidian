@@ -1,8 +1,20 @@
 # ophidian grammar
 
-version: 0.3
+version: 0.4
+
+general:
+  word-order: "SVO"
+  pro-drop: true
+  adjective-placement: "after noun"
+  
 
 # verb grammar
+
+# verbs have two types:
+# 1. -ss- type: active verbs
+# 2. -xx- type: stative verbs
+# Type 1 verbs retain their basic stem in all forms, while type 2 verbs have a geminated stem in some forms.
+# Geminated stem is a form of the stem, when the first C and the last V are doubled, while the -xx- affix is dropped.
 
 verbs:
   tense: false
@@ -23,7 +35,7 @@ verbs:
         example: şagassal
       - type: 2
         affix: "-l"
-        stem: geminated # Geminated stem is a form of the stem in verbs type 2, when the first C and the last V are doubled, while the -xx- affix is dropped
+        stem: geminated 
         example: şşagaal
   mood:
     indicative:
@@ -105,11 +117,24 @@ nouns:
       prefix: "zero"
       semantics: "inanimate objects, abstract concepts, other"
     - class: 8
-      prefix: "ha-"
-      semantics: "plural for class 7, 8, 9"
+      prefix: "ha-" # the prefix is added to the whole word, e.g. haļicejeśe — bird's nests
+      semantics: "plural for class 7, 9, 10"
     - class: 9
       prefix: "ļi-"
       semantics: "shelter, body parts, plants, small objects"
     - class: 10
       prefix: "ša-"
       semantics: "warm objects, fire, light"
+
+# adjective grammar
+
+adjectives:
+  positive:
+    - affix: null
+      example: "-seśe"
+  comparative:
+    - affix: "-V'V"
+      example: "-seśe'e"
+  superlative:
+    - affix: "-V'V"
+      example: "-seśe'e"

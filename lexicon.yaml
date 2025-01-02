@@ -1,168 +1,239 @@
 # ophidian lexicon
 
-version: 0.3
+version: 0.4
 
 verbs:
-  - word: "şagassa" # verbs are listed in their imperfective impersonate form
+  - word-latin: "şagassa" # verbs are listed in their imperfective impersonate form
+    word-cyrillic: "шагасса"
     meaning: to open
     type: 1
-  - word: "şagaxxa"
+  - word-latin: "şagaxxa"
+    word-cyrillic: "шагахха"
     meaning: to be open
     type: 2
-  - word: "hissa"
+  - word-latin: "hissa"
+    word-cyrillic: "ьисса"
     meaning: to hiss
     type: 1
-  - word: "šecesse"
+  - word-latin: "šecesse"
+    word-cyrillic: "жэсьэссэ"
     meaning: to fly
     type: 1
-  - word: "seșesse"
+  - word-latin: "seșesse"
+    word-cyrillic: "сэшэссэ"
     meaning: to eat
     type: 1
-  - word: "seșexxe"
+  - word-latin: "seșexxe"
+    word-cyrillic: "сэшэххэ"
     meaning: to digest
     type: 2
-  - word: "gaśissi" # prefixes can be added to indicate the direction of the movement
+  - word-latin: "gaśissi" # prefixes can be added to indicate the direction of the movement
+    word-cyrillic: "гащисси"
     meaning: to move
     type: 1
-  - word: "gaśixxi"
+  - word-latin: "gaśixxi"
+    word-cyrillic: "гащиххи"
     meaning: to wait, to be static
     type: 2
-  - word: "seşegaśixxi"
+  - word-latin: "seşegaśixxi"
+    word-cyrillic: "сэшэгащиххи"
     meaning: to have eaten and crawl in a safe place to digest
     type: 2
-  - word: "xesešassa"
+  - word-latin: "xesešassa"
+    word-cyrillic: "хэсэжасса"
     meaning: to find shelter
     type: 1
-  - word: "šixesaśesse"
+  - word-latin: "šixesaśesse"
+    word-cyrillic: "жихэсащэссэ"
     meaning: to shed skin
     type: 1
-  - word: "saśesse"
+  - word-latin: "saśesse"
+    word-cyrillic: "сащэссэ"
     meaning: to get rid of sth
     type: 1
-  - word: "ceșassa"
+  - word-latin: "ceșassa"
+    word-cyrillic: "сьэшасса"
     meaning: to slither
     type: 1
-  - word: "jagassi"
+  - word-latin: "jagassi"
+    word-cyrillic: "хьагасси"
     meaning: to attack
     type: 1
-  - word: "šexxe"
+  - word-latin: "šexxe"
+    word-cyrillic: "жэххэ"
     meaning: to be able to
     type: 2
-  - word: "heeje"
+  - word-latin: "heeje"
+    word-cyrillic: "ьээхьэ"
     meaning: to be
     type: irregular
     # imperfect: heeje; perfect:jjee; imperative: heej; jussive: hee; inceptive: tahee (to become)
-  - word: "hašassa"
+  - word-latin: "hašassa"
+    word-cyrillic: "ьажасса"
     meaning: to listen
     type: 1
-  - word: "hašaxxa"
+  - word-latin: "hašaxxa"
+    word-cyrillic: "ьажахха"
     meaning: to hear
     type: 2
-  - word: "satassa"
+  - word-latin: "satassa"
+    word-cyrillic: "сатасса"
     meaning: to call
     type: 1
-  - word: "sataxxa"
+  - word-latin: "sataxxa"
+    word-cyrillic: "сатахха"
     meaning: to be called
     type: 2
     # example: šisataxxa %name% — my name is %name%; gesataxxa cci'i — what is your name?
-  - word: "qeșesse"
+  - word-latin: "qeșesse"
+    word-cyrillic: "кэшэссэ"
     meaning: to want
     type: 1
     # requires infinitive: qeșesse śaşagassa — I want to open
-  - word: "jahassa"
+  - word-latin: "jahassa"
+    word-cyrillic: "хьаьасса"
     meaning: to hurt
     type: 1
+  - word-latin: "šexassa"
+    word-cyrillic: "жэхасса"
+    meaning: to close
+    type: 1
+  
   
 nouns:
-  - word: "secişi"
+  - word-latin: "secişi"
+    word-cyrillic: "сэсьиши"
     meaning: a serpent
-    class: 1
-  - word: "tešece"
+    class: 1 # se- prefix, singular
+  - word-latin: "tešece"
+    word-cyrillic: "тэжэсьэ"
     meaning: a bird, small flying animal
-    class: 3 
-  - word: "gašece"
+    class: 3 # te- prefix, singular
+  - word-latin: "gašece"
+    word-cyrillic: "гажэсьэ"
     meaning: a bird of prey
-    class: 5
-  - word: "tašša"
+    class: 5 # ga- prefix, singular
+  - word-latin: "tašša"
+    word-cyrillic: "тажжа"
     meaning: a door
-    class: 7
-  - word: "ļicejeśe"
+    class: 7 # no prefix, singular
+  - word-latin: "ļicejeśe"
+    word-cyrillic: "льисьэхьэщэ"
     meaning: a bird's nest
-    class: 8
-  - word: "šasiše"
+    class: 8 # ļi- prefix, singular
+  - word-latin: "šasiše"
+    word-cyrillic: "жасижэ"
     meaning: a warm rock
-    class: 10
-  - word: "ļišixe"
+    class: 10 # ša- prefix, singular
+  - word-latin: "ļišixe"
+    word-cyrillic: "льижихэ"
     meaning: a skin
-    class: 9
-  - word: "siše"
+    class: 9 # ļi- prefix, singular
+  - word-latin: "siše"
+    word-cyrillic: "сижэ"
     meaning: a rock
-    class: 7
-  - word: "ļixeseša"
+    class: 7 # no prefix, singular
+  - word-latin: "ļixeseša"
+    word-cyrillic: "льихэсэжа"
     meaning: a shelter
-    class: 9
-  - word: "tesessa"
+    class: 9 # ļi- prefix, singular
+  - word-latin: "tesessa"
+    word-cyrillic: "тэсэсса"
     meaning: a window
-    class: 3
-  - word: "ļicexese"
+    class: 3 # te- prefix, singular
+  - word-latin: "ļicexese"
+    word-cyrillic: "льисьэхэсэ"
     meaning: a snake's nest
-    class: 9
-  - word: "hehisa"
+    class: 9 # ļi- prefix, singular
+  - word-latin: "hehisa"
+    word-cyrillic: "ьэьиса"
     meaning: wind
-    class: 7 # no plural
-  - word: "sata"
+    class: 7 # no prefix, singularia tantum
+  - word-latin: "sata"
+    word-cyrillic: "сата"
     meaning: a name
-    class: 7
-  - word: "seșagaśi"
+    class: 7 # no prefix, singular
+  - word-latin: "seșagaśi"
+    word-cyrillic: "сэшагащи"
     meaning: success
-    class: 1
-  - word: "teja"
+    class: 1 # se- prefix, singular
+  - word-latin: "teja"
+    word-cyrillic: "тэхьа"
     meaning: eggs as food
-    class: 4
-  - word: "seja"
+    class: 3 # te- prefix, singular
+  - word-latin: "seja"
+    word-cyrillic: "сэхьа"
     meaning: snake eggs
-    class: 2
+    class: 2 # se- prefix, singular
+  - word-latin: "šašša"
+    word-cyrillic: "жажжа"
+    meaning: fire
+    class: 10 # ša- prefix, singular
+  - word-latin: "śegela"
+    word-cyrillic: "щэгэла"
+    meaning: softness, a slow movement
+    class: 7 # no prefix, singular
   
 adjectives:
-  - word: "-seśe"
+  - word-latin: "-seśe"
+    word-cyrillic: "-сэщэ"
     meaning: big
-  - word: "-šiisa"
+  - word-latin: "-šiisa"
+    word-cyrillic: "-жииса"
     meaning: small
 
 adverbs:
-  - word: "śegelaga"
-    meaning: soft, slow, careful
+  - word-latin: "śegelaga"
+    word-cyrillic: "щэгэлага"
+    meaning: softly, slowly, carefully
 
 pronouns:
-  - word: "ši"
+  - word-latin: "ši"
+    word-cyrillic: "жи"
     meaning: I, here, this
-  - word: "ge"
+  - word-latin: "ge"
+    word-cyrillic: "гэ"
     meaning: you, there (near you), that (near you)
-  - word: "șe"
+  - word-latin: "șe"
+    word-cyrillic: "шэ"
     meaning: he, she, it, there, that (far from both of us)
-  - word: "haši"
+  - word-latin: "haši"
+    word-cyrillic: "ьажи"
     meaning: we, here, these
-  - word: "hage"
+  - word-latin: "hage"
+    word-cyrillic: "ьагэ"
     meaning: you, there (near you), those (near you)
-  - word: "hașe"
+  - word-latin: "hașe"
+    word-cyrillic: "ьашэ"
     meaning: they, there, those (far from both of us)
-  - word: "cci'i"
+  - word-latin: "cci'i"
+    word-cyrillic: "ссьиьи"
     meaning: what, who, which
 # pronouns can also be used as prefixes for verbs to indicate the subject and the object of the action
 
 prepositions:
-  - word: "xaa"
-    meaning: in, along, on, at, by etc. # cf. Tok Pisin "long"
+  - word-latin: "xaa"
+    word-cyrillic: "хаа"
+    meaning: in, to, along, on, at, by etc. # cf. Tok Pisin "long"
 
 conjunctions:
-  - word: "sa"
+  - word-latin: "sa"
+    word-cyrillic: "са"
     meaning: and, with
 
+particles:
+#  - word-latin: "śi"
+#    word-cyrillic: "щи"
+#    meaning: "question particle" # used to form questions, e.g. "śi șe siše" — is it a rock?
+
 numerals:
-  - word: "-xeta"
+  - word-latin: "-xeta"
+    word-cyrillic: "-хэта"
     meaning: one
-  - word: "-ttaa"
+  - word-latin: "-ttaa"
+    word-cyrillic: "-ттаа"
     meaning: two
-  - word: "-lata"
+  - word-latin: "-lata"
+    word-cyrillic: "-лата"
     meaning: three
     # numerals works as adjectives, e.g. "tešece xeta" — one bird, "teješece ttaa" — two birds

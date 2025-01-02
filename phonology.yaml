@@ -1,20 +1,29 @@
-version: 0.3
+# ophidian phonology
+
+version: 0.4
 
 phonemes:
-  consonants: ["t", "s", "c", "ș", "š", "ś", "j", "x", "g", "q", "h", "l", "ļ", "'"]
-  vowels: ["i", "e", "a"]
+  consonants:
+    simple: ["θ", "s", "sʲ", "ʃ", "ʂ", "ɕ", "ç", "x", "χ", "ħ", "h", "ɬ", "𝼆"]
+    geminated: ["θː", "sː", "sʲː", "ʃː", "ʂː", "ɕː", "çː", "xː", "χː", "ħː", "hː", "ɬː", "𝼆ː"]
+  vowels:
+    short: ["i", "e", "a"]
+    long: ["iː", "eː", "aː"]
+    double: ["iʔi", "eʔe", "aʔa"]
 
 sounds:
   consonants:
-    categories:
+    categories: # soft consonants are paired with front vowels, hard consonants with back vowels
       soft: ["θ", "sʲ", "ɕ", "ç", "h", "𝼆"]
       hard: ["s", "ʃ", "ʂ", "x", "χ", "ħ", "ɬ"]
   vowels:
-    i: ["i", "ɨ"]
-    e: ["e", "ɛ"]
-    a: ["a", "ɑ"]
+    categories:
+      front: ["i", "e", "a"]
+      back: ["ɨ", "ɛ", "ɑ"]
 
-transliteration:
+transliteration: 
+# transliteration corresponds with the phonology, expect the vowels: double vowels are spelled through a glottal stop (last symbol)
+# gemintaed consonants and long vowels are spelled through double letters (e.g. [θː] -> tt/tth, [ʂː] -> šš/rrz, [iː] -> ii)
   - script: latin
     variant: 1
     description: "Standard Latin transliteration"
@@ -26,12 +35,11 @@ transliteration:
   - script: cyrillic
     variant: 1
     description: "Standard Cyrillic transliteration"
-    alphabet: ["т", "с", "сь", "шь", "ш", "щ", "хь", "х", "г", "к", "ъ", "л", "ль", "и", "э", "а", "1"]
+    alphabet: ["т", "с", "сь", "ш", "ж", "щ", "хь", "х", "г", "к", "ь", "л", "ль", "и", "э", "а", "ъ"]
   - script: cyrillic
     variant: 2
     description: "Alternative Cyrillic transliteration"
-    alphabet: ["ф", "с", "сј", "шј", "ш", "шт", "ј", "х", "г", "к", """, "л", "љ", "и", "е", "а", "'"]
+    alphabet: ["ф", "с", "сј", "ш", "ж", "шј", "ј", "х", "г", "к", """, "л", "лј", "и", "е", "а", "'"]
 
-has-geminates: true
-has-long-vowels: true
-
+# there's also an opportunity of cyrillic transliteration following the phonetic rules of the russian language
+# e.g. standard: сэхишэ/сьэхьищэ — updated: сэхышэ/сехище
