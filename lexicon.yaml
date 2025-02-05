@@ -98,7 +98,38 @@ verbs:
     word-cyrillic: "жэхасса"
     meaning: to close
     type: 1
-  
+  - word-latin: "gataxxa"
+    word-cyrillic: "гатахха"
+    meaning: to be dead
+    type: 2
+  - word-latin: "gatassa"
+    word-cyrillic: "гатасса"
+    meaning: to kill
+    type: 1
+  - word-latin: "taagataxxa"
+    word-cyrillic: "таагатахха"
+    meaning: to die
+    type: 2
+  - word-latin: "śesexxe"
+    word-cyrillic: "щэсэххэ"
+    meaning: to be alive 
+    type: 2
+  - word-latin: "hehassa"
+    word-cyrillic: "ьэьасса"
+    meaning: to blow
+    type: 1
+  - word-latin: "śesesse"
+    word-cyrillic: "щэсэссэ"
+    meaning: to live
+    type: 1
+  - word-latin: "taaśesesse"
+    word-cyrillic: "таащэсэссэ"
+    meaning: to be born
+    type: 1
+  - word-latin: "hehaxxa"
+    word-cyrillic: "ьэьахха"
+    meaning: to swell, to bulge
+    type: 2
   
 nouns:
   - word-latin: "secişi"
@@ -173,6 +204,30 @@ nouns:
     word-cyrillic: "щэгэла"
     meaning: softness, a slow movement
     class: 7 # no prefix, singular
+  - word-latin: "ļihaša"
+    word-cyrillic: "льиьажа"
+    meaning: an ear
+    class: 9 # ļi- prefix, singular
+  - word-latin: "xe"
+    word-cyrillic: "хэ"
+    meaning: an eye
+    class: 7 # no prefix, singular
+  - word-latin: "šaxe"
+    word-cyrillic: "жахэ"
+    meaning: day, the sun
+    class: 10 # ša- prefix, singular
+  - word-latin: "taašaxe"
+    word-cyrillic: "таажахэ"
+    meaning: morning
+    class: 7 # no prefix, singular
+  - word-latin: "śixi"
+    word-cyrillic: "щихи"
+    meaning: a tail
+    class: 7 # no prefix, singular
+  - word-latin: "seci"
+    word-cyrillic: "сэсьи"
+    meaning: a tongue
+    class: 1 # se- prefix, singular
   
 adjectives:
   - word-latin: "-seśe"
@@ -186,6 +241,9 @@ adverbs:
   - word-latin: "śegelaga"
     word-cyrillic: "щэгэлага"
     meaning: softly, slowly, carefully
+  - word-latin: "šala"
+    word-cyrillic: "жала"
+    meaning: later, after
 
 pronouns:
   - word-latin: "ši"
@@ -207,7 +265,7 @@ pronouns:
     word-cyrillic: "ьашэ"
     meaning: they, there, those (far from both of us)
   - word-latin: "cci'i"
-    word-cyrillic: "ссьиьи"
+    word-cyrillic: "ссьиъи"
     meaning: what, who, which
 # pronouns can also be used as prefixes for verbs to indicate the subject and the object of the action
 
@@ -222,6 +280,12 @@ conjunctions:
     meaning: and, with
 
 particles:
+  - word-latin: "ssaa"
+    word-cyrillic: "ссаа"
+    meaning: "no" 
+  - word-latin: "hee"
+    word-cyrillic: "ьээ"
+    meaning: "yes"
 #  - word-latin: "śi"
 #    word-cyrillic: "щи"
 #    meaning: "question particle" # used to form questions, e.g. "śi șe siše" — is it a rock?

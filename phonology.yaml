@@ -9,7 +9,7 @@ phonemes:
   vowels:
     short: ["i", "e", "a"]
     long: ["iː", "eː", "aː"]
-    double: ["iʔi", "eʔe", "aʔa"]
+    double: ["iʔi", "eʔe", "aʔa"] # double vowels are used predominantly as a part of grammar: e.g. to indicate the plural form of nouns
 
 sounds:
   consonants:
@@ -39,7 +39,7 @@ transliteration:
   - script: cyrillic
     variant: 2
     description: "Alternative Cyrillic transliteration"
-    alphabet: ["ф", "с", "сј", "ш", "ж", "шј", "ј", "х", "г", "к", """, "л", "лј", "и", "е", "а", "'"]
+    alphabet: ["ф", "с", "сј", "ш", "ж", "шј", "ј", "х", "г", "к", "кј", "л", "лј", "и", "е", "а", "'"]
 
 # there's also an opportunity of cyrillic transliteration following the phonetic rules of the russian language
 # e.g. standard: сэхишэ/сьэхьищэ — updated: сэхышэ/сехище
