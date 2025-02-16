@@ -130,6 +130,14 @@ verbs:
     word-cyrillic: "ьэьахха"
     meaning: to swell, to bulge
     type: 2
+  - word-latin: "xesse"
+    word-cyrillic: "хэссэ"
+    meaning: to look (at)
+    type: 1
+  - word-latin: "xexxe"
+    word-cyrillic: "хэххэ"
+    meaning: to see
+    type: 2
   
 nouns:
   - word-latin: "secişi"
@@ -228,6 +236,10 @@ nouns:
     word-cyrillic: "сэсьи"
     meaning: a tongue
     class: 1 # se- prefix, singular
+  - word-latin: "gaśi"
+    word-cyrillic: "гащи"
+    meaning: a place
+    class: 7 # no prefix, singular
   
 adjectives:
   - word-latin: "-seśe"
