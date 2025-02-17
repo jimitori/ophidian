@@ -138,6 +138,14 @@ verbs:
     word-cyrillic: "хэххэ"
     meaning: to see
     type: 2
+  - word-latin: "taasse"
+    word-cyrillic: "таассэ"
+    meaning: to begin
+    type: 1
+  - word-latin: "tassa"
+    word-cyrillic: "тасса"
+    meaning: to do
+    type: 1
   
 nouns:
   - word-latin: "secişi"
@@ -224,6 +232,10 @@ nouns:
     word-cyrillic: "жахэ"
     meaning: day, the sun
     class: 10 # ša- prefix, singular
+  - word-latin: "ļixe"
+    word-cyrillic: "льихэ"
+    meaning: night
+    class: 9 # ļi- prefix, singular
   - word-latin: "taašaxe"
     word-cyrillic: "таажахэ"
     meaning: morning
@@ -239,6 +251,10 @@ nouns:
   - word-latin: "gaśi"
     word-cyrillic: "гащи"
     meaning: a place
+    class: 7 # no prefix, singular
+  - word-latin: "taje"
+    word-cyrillic: "тахьэ"
+    meaning: a root
     class: 7 # no prefix, singular
   
 adjectives:
