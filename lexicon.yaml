@@ -256,6 +256,10 @@ nouns:
     word-cyrillic: "тахьэ"
     meaning: a root
     class: 7 # no prefix, singular
+  - word-latin: "haša"
+    word-cyrillic: "ьажа"
+    meaning: a sound
+    class: 8 # ha- prefix, pluralia tantum
   
 adjectives:
   - word-latin: "-seśe"
@@ -295,6 +299,9 @@ pronouns:
   - word-latin: "cci'i"
     word-cyrillic: "ссьиъи"
     meaning: what, who, which
+  - word-latin: "ce'e-/teje-/qa'a-/ha-șșa"
+    word-cyrillic: "сьэьэ-/тэхьэ-/каьа-/ьа-шша"
+    meaning: all
 # pronouns can also be used as prefixes for verbs to indicate the subject and the object of the action
 
 prepositions:
@@ -306,6 +313,12 @@ conjunctions:
   - word-latin: "sa"
     word-cyrillic: "са"
     meaning: and, with
+  - word-latin: "hi"
+    word-cyrillic: "ьи"
+    meaning: or
+  - word-latin: "śi"
+    word-cyrillic: "щи"
+    meaning: whether, if
 
 particles:
   - word-latin: "ssaa"
