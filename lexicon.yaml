@@ -244,8 +244,8 @@ nouns:
     word-cyrillic: "щихи"
     meaning: a tail
     class: 7 # no prefix, singular
-  - word-latin: "seci"
-    word-cyrillic: "сэсьи"
+  - word-latin: "seti"
+    word-cyrillic: "сэти"
     meaning: a tongue
     class: 1 # se- prefix, singular
   - word-latin: "gaśi"
@@ -260,6 +260,10 @@ nouns:
     word-cyrillic: "ьажа"
     meaning: a sound
     class: 8 # ha- prefix, pluralia tantum
+  - word-latin: "śahisa"
+    word-cyrillic: "щаьиса"
+    meaning: a language
+    class: 7 # no prefix, singular
   
 adjectives:
   - word-latin: "-seśe"
