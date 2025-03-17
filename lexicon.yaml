@@ -84,7 +84,7 @@ verbs:
     word-cyrillic: "сатахха"
     meaning: to be called
     type: 2
-    # example: šisataxxa %name% — my name is %name%; gesataxxa cci'i — what is your name?
+    # example: šisataxxa %name% — my name is %name%; gesataxxa ssi'i — what is your name?
   - word-latin: "qeșesse"
     word-cyrillic: "кэшэссэ"
     meaning: to want
@@ -300,8 +300,8 @@ pronouns:
   - word-latin: "hașe"
     word-cyrillic: "ьашэ"
     meaning: they, there, those (far from both of us)
-  - word-latin: "cci'i"
-    word-cyrillic: "ссьиъи"
+  - word-latin: "ssi'i"
+    word-cyrillic: "ссиъи"
     meaning: what, who, which
   - word-latin: "ce'e-/teje-/qa'a-/ha-șșa"
     word-cyrillic: "сьэьэ-/тэхьэ-/каьа-/ьа-шша"
