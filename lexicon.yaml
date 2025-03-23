@@ -184,10 +184,10 @@ nouns:
     word-cyrillic: "льихэсэжа"
     meaning: a shelter
     class: 9 # ļi- prefix, singular
-  - word-latin: "tesessa"
-    word-cyrillic: "тэсэсса"
+  - word-latin: "telesa"
+    word-cyrillic: "тэлэса"
     meaning: a window
-    class: 3 # te- prefix, singular
+    class: 7 # no prefix, singular
   - word-latin: "ļicexese"
     word-cyrillic: "льисьэхэсэ"
     meaning: a snake's nest
@@ -264,6 +264,14 @@ nouns:
     word-cyrillic: "щаьиса"
     meaning: a language
     class: 7 # no prefix, singular
+  - word-latin: "sseqa"
+    word-cyrillic: "ссэка"
+    meaning: love
+    class: 7 # no prefix, singular
+  - word-latin: "seqa"
+    word-cyrillic: "сэка"
+    meaning: a lover
+    class: 1 # se- prefix, singular
   
 adjectives:
   - word-latin: "-seśe"
