@@ -187,7 +187,7 @@ nouns:
   - word-latin: "telesa"
     word-cyrillic: "тэлэса"
     meaning: a window
-    class: 7 # no prefix, singular
+    class: 3 # te- prefix, singular
   - word-latin: "ļicexese"
     word-cyrillic: "льисьэхэсэ"
     meaning: a snake's nest
@@ -264,12 +264,12 @@ nouns:
     word-cyrillic: "щаьиса"
     meaning: a language
     class: 7 # no prefix, singular
-  - word-latin: "sseqa"
-    word-cyrillic: "ссэка"
+  - word-latin: "sseha"
+    word-cyrillic: "ссэьа"
     meaning: love
     class: 7 # no prefix, singular
-  - word-latin: "seqa"
-    word-cyrillic: "сэка"
+  - word-latin: "seha"
+    word-cyrillic: "сэьа"
     meaning: a lover
     class: 1 # se- prefix, singular
   
