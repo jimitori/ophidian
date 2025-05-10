@@ -27,11 +27,15 @@ transliteration:
   - script: latin
     variant: 1
     description: "Standard Latin transliteration"
-    alphabet: ["t", "s", "c", "ș", "š", "ś", "j", "x", "g", "q", "h", "l", "ļ", "i", "e", "a", "'"]
+    alphabet: ["t", "s", "c", "ș", "š", "ś", "j", "x", "g", "q", "h", "l", "ļ", "i", "e", "a", "’"]
   - script: latin
     variant: 2
     description: "Alternative Latin transliteration with digraphs"
-    alphabet: ["th", "s", "c", "sh", "rz", "ch", "j", "x", "g", "q", "h", "l", "lh", "i", "e", "a", "'"]
+    alphabet: ["th", "s", "c", "sh", "rz", "ch", "j", "x", "g", "q", "h", "l", "lh", "i", "e", "a", "’"]
+  - script: latin
+    variant: 3 # technical transliteration for websites and other technical purposes; double letters use accent mark: ś for ss, 
+    description: "Technical Latin transliteration"
+    alphabet: ["t", "s", "c", "w", "r", "z", "j", "x", "g", "q", "h", "l", "y", "i", "e", "a", "’"]
   - script: cyrillic
     variant: 1
     description: "Standard Cyrillic transliteration"
@@ -39,7 +43,7 @@ transliteration:
   - script: cyrillic
     variant: 2
     description: "Alternative Cyrillic transliteration"
-    alphabet: ["ф", "с", "сј", "ш", "ж", "шј", "ј", "х", "г", "к", "кј", "л", "лј", "и", "е", "а", "'"]
+    alphabet: ["ф", "с", "сј", "ш", "ж", "шј", "ј", "х", "г", "к", "кј", "л", "лј", "и", "е", "а", "’"]
 
 # there's also an opportunity of cyrillic transliteration following the phonetic rules of the russian language
 # e.g. standard: сэхишэ/сьэхьищэ — updated: сэхышэ/сехище
