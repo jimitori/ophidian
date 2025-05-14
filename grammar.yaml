@@ -15,9 +15,9 @@ general:
 # 2. -xx- type: stative verbs
 # Type 1 verbs retain their basic stem in all forms, while type 2 verbs have a geminated stem in some forms.
 # Geminated stem is a form of the stem, when the first C and the last V are doubled, while the -xx- affix is dropped.
+# Originally, there was no tense distinction in the language, but later ways of expressing tense distinction evolved for past and future.
 
 verbs:
-  tense: false
   aspect:
     imperfective:
       - type: 1
@@ -89,6 +89,32 @@ verbs:
         affix: "taa-"
         stem: basic
         example: taaşagassa
+  tense:
+    regular: false;
+    irregular: true;
+    forms:
+      past:
+        - type: 1
+          auxiliary: "jjee" # to be
+          affix: "-l" # perfective
+          stem: basic
+          example: jjee şagassal
+        - type: 2
+          auxiliary: "jjee" # to be
+          affix: "-l" # perfective
+          stem: geminated
+          example: jjee şşagaal
+      future:
+        - type: 1
+          auxiliary: "jigessa" # to go
+          affix: "śa-" #infinitive
+          stem: basic
+          example: jigessa śaşagassa
+        - type: 2
+          auxiliary: "jigessa" # to go
+          affix: "śa-" #infinitive
+          stem: geminated
+          example: jigessa śaşagaxxa
 
 
 # noun grammar
