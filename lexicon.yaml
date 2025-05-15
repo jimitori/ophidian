@@ -280,6 +280,24 @@ adjectives:
   - word-latin: "-šiisa"
     word-cyrillic: "-жииса"
     meaning: small
+  - word-latin: "-ssice"
+    word-cyrillic: "-ссисьэ"
+    meaning: red
+  - word-latin: "-sa'a"
+    word-cyrillic: "-саъа"
+    meaning: infrared, warm
+  - word-latin: "-lasa"
+    word-cyrillic: "-ласа"
+    meaning: black
+  - word-latin: "-tiša"
+    word-cyrillic: "-тиша"
+    meaning: white
+  - word-latin: "-teșșa"
+    word-cyrillic: "-тэжша"
+    meaning: yellow
+  - word-latin: "-šixa"
+    word-cyrillic: "-жиха"
+    meaning: green
 
 adverbs:
   - word-latin: "śegelaga"
@@ -320,6 +338,9 @@ prepositions:
   - word-latin: "xaa"
     word-cyrillic: "хаа"
     meaning: in, to, along, on, at, by etc. # cf. Tok Pisin "long"
+  - word-latin: "-ji" # postposition
+    word-cyrillic: "-хьи"
+    meaning: of
 
 conjunctions:
   - word-latin: "sa"
