@@ -5,7 +5,7 @@ version: 0.4
 verbs:
   - word-latin: "şagassa" # verbs are listed in their imperfective impersonate form
     word-cyrillic: "шагасса"
-    meaning: to open
+    meaning: to open, to disembowel
     type: 1
   - word-latin: "şagaxxa"
     word-cyrillic: "шагахха"
@@ -145,6 +145,14 @@ verbs:
   - word-latin: "tassa"
     word-cyrillic: "тасса"
     meaning: to do
+    type: 1
+  - word-latin: "jigessa"
+    word-cyrillic: "хьигэсса"
+    meaning: to go away
+    type: 1
+  - word-latin: "jišissa"
+    word-cyrillic: "хьижисса"
+    meaning: to come
     type: 1
   
 nouns:
