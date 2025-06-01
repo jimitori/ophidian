@@ -281,7 +281,7 @@ nouns:
     word-cyrillic: "щаьиса"
     meaning: a language
     class: 7 # no prefix, singular
-  - word-latin: "sseha"
+  - word-latin: "sseha" #from sanskrit "sneha"
     word-cyrillic: "ссэьа"
     meaning: love
     class: 7 # no prefix, singular
@@ -322,7 +322,7 @@ adjectives:
     word-cyrillic: "-тиша"
     meaning: white
   - word-latin: "-teșșa"
-    word-cyrillic: "-тэжша"
+    word-cyrillic: "-тэшша"
     meaning: yellow
   - word-latin: "-šixa"
     word-cyrillic: "-жиха"
@@ -362,7 +362,7 @@ pronouns:
     word-cyrillic: "ссиъи"
     meaning: what, who, which
   - word-latin: "ce'e-/teje-/qa'a-/ha-șșa"
-    word-cyrillic: "сьэьэ-/тэхьэ-/каьа-/ьа-шша"
+    word-cyrillic: "сьэъэ-/тэхьэ-/каъа-/ьа-шша"
     meaning: all
 # pronouns can also be used as prefixes for verbs to indicate the subject and the object of the action
 
@@ -384,6 +384,9 @@ conjunctions:
   - word-latin: "śi"
     word-cyrillic: "щи"
     meaning: whether, if
+  - word-latin: "śega"
+    word-cyrillic: "щэга"
+    meaning: because
 
 particles:
   - word-latin: "ssaa"
