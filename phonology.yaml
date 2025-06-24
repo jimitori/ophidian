@@ -7,9 +7,9 @@ phonemes:
     simple: ["θ", "s", "sʲ", "ʃ", "ʂ", "ɕ", "ç", "x", "χ", "ħ", "h", "ɬ", "𝼆"]
     geminated: ["θː", "sː", "sʲː", "ʃː", "ʂː", "ɕː", "çː", "xː", "χː", "ħː", "hː", "ɬː", "𝼆ː"]
   vowels:
-    short: ["i", "e", "a"]
-    long: ["iː", "eː", "aː"]
-    double: ["iʔi", "eʔe", "aʔa"] # double vowels are used predominantly as a part of grammar: e.g. to indicate the plural form of nouns
+    short: ["i", "e", "a", "u"] # u is a rare vowel, used in loanwords
+    long: ["iː", "eː", "aː", "uː"]
+    double: ["iʔi", "eʔe", "aʔa", "uʔu"] # double vowels are used predominantly as a part of grammar: e.g. to indicate the plural form of nouns
 
 sounds:
   consonants:
@@ -18,8 +18,8 @@ sounds:
       hard: ["s", "ʃ", "ʂ", "x", "χ", "ħ", "ɬ"]
   vowels:
     categories:
-      front: ["i", "e", "a"]
-      back: ["ɨ", "ɛ", "ɑ"]
+      front: ["i", "e", "a", "ə"]
+      back: ["ɨ", "ɛ", "ɑ", "ɯ"]
 
 transliteration: 
 # transliteration corresponds with the phonology, expect the vowels: double vowels are spelled through a glottal stop (last symbol)
@@ -27,23 +27,23 @@ transliteration:
   - script: latin
     variant: 1
     description: "Standard Latin transliteration"
-    alphabet: ["t", "s", "c", "ș", "š", "ś", "j", "x", "g", "q", "h", "l", "ļ", "i", "e", "a", "’"]
+    alphabet: ["t", "s", "c", "ș", "š", "ś", "j", "x", "g", "q", "h", "l", "ļ", "i", "e", "a", "u", "’"]
   - script: latin
     variant: 2
     description: "Alternative Latin transliteration with digraphs"
-    alphabet: ["th", "s", "c", "sh", "rz", "ch", "j", "x", "g", "q", "h", "l", "lh", "i", "e", "a", "’"]
+    alphabet: ["th", "s", "c", "sh", "rz", "ch", "j", "x", "g", "q", "h", "l", "lh", "i", "e", "a", "u", "’"]
   - script: latin
     variant: 3 # technical transliteration for websites and other technical purposes; double letters use accent mark: ś for ss, 
     description: "Technical Latin transliteration"
-    alphabet: ["t", "s", "c", "w", "r", "z", "j", "x", "g", "q", "h", "l", "y", "i", "e", "a", "’"]
+    alphabet: ["t", "s", "c", "w", "r", "z", "j", "x", "g", "q", "h", "l", "y", "i", "e", "a", "u", "’"]
   - script: cyrillic
     variant: 1
     description: "Standard Cyrillic transliteration"
-    alphabet: ["т", "с", "сь", "ш", "ж", "щ", "хь", "х", "г", "к", "ь", "л", "ль", "и", "э", "а", "ъ"]
+    alphabet: ["т", "с", "сь", "ш", "ж", "щ", "хь", "х", "г", "к", "ь", "л", "ль", "и", "э", "а", "у", "ъ"]
   - script: cyrillic
     variant: 2
     description: "Alternative Cyrillic transliteration"
-    alphabet: ["ф", "с", "сј", "ш", "ж", "шј", "ј", "х", "г", "к", "кј", "л", "лј", "и", "е", "а", "’"]
+    alphabet: ["ф", "с", "сј", "ш", "ж", "шј", "ј", "х", "г", "к", "кј", "л", "лј", "и", "е", "а", "у", "’"]
 
 # there's also an opportunity of cyrillic transliteration following the phonetic rules of the russian language
 # e.g. standard: сэхишэ/сьэхьищэ — updated: сэхышэ/сехище
